@@ -1,0 +1,91 @@
+.heading {
+  background: #bbffff;
+  color: #0e36cb;
+  display: flex;
+  justify-content: center;
+  padding: 9px;
+}
+
+svg {
+  width: 17px;
+  height: 17px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 145px;
+  margin: 20px 0px;
+}
+
+.link button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link button {
+  white-space: nowrap;
+}
+
+.search-wrapper form {
+  display: flex;
+  align-items: center;
+}
+
+.search-wrapper {
+  width: 100%;
+}
+
+.search-wrapper form .icon {
+  padding: 7px;
+  background-color: rgb(183, 183, 183);
+}
+
+input#exampleDataList {
+  border-radius: 0px;
+}
+
+.view-container {
+  max-width: 345px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid cadetblue;
+  background: floralwhite;
+  border-radius: 16px;
+  color: cadetblue;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.view.btn {
+  border: 2px solid cadetblue;
+  border-radius: 14px;
+  background: beige;
+}
+
+.pagination a {
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 8px;
+  color: black;
+  font-size: small;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination a:hover {
+  background-color: black;
+  color: white;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
